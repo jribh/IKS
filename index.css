@@ -1,0 +1,170 @@
+body {
+    background-color: #F5F5F7;
+    font-family: 'Roboto';
+}
+
+#main-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width:70vw;
+    margin:18px auto 0 auto;
+}
+
+#headings-div {
+    padding:0 16%;
+}
+
+#headings-div h1 {
+    font-size:36px;
+    font-weight: 600;
+    margin:0;
+}
+
+#headings-div h2 {
+    font-size:12px;
+    font-weight: 600;
+    margin:1.2em 0 0 0;
+}
+
+#headings-div h3 {
+    font-size:12px;
+    font-weight: 400;
+    margin:0.2em 0 0 0;
+}
+
+.rd-headings h1 {
+    font-size:22px;
+    font-weight: 600;
+    margin:0 0 0.07em 0;
+}
+
+.rd-headings {
+    margin:2.5em 0 1.2em 0;
+    text-align: left;
+}
+
+.rd-headings h2 {
+    font-size:12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    margin:0;
+}
+
+.rd:nth-of-type(2n) .rd-tiles {
+    display:flex;
+}
+
+
+.tile {
+    background-color: white;
+    width:34vw;
+    height:18vw;
+    border-radius: 1.5vw;
+    display: flex;
+}
+
+.tile:nth-of-type(1) {
+    margin: 0 2vw 0 0;
+}
+
+.tile-left, .tile-right {
+    width:17vw;
+}
+
+.tile-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tile-with-end {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tile-right {
+    padding:0 2em 0 2em;
+}
+
+.tile-right h1{
+    text-align:left;
+    font-size:20px;
+    font-weight: 600;
+    margin: 2.5vw 0 1em 0;
+}
+
+.tile-right h2 {
+    text-align:left;
+    font-size:12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.parent-of-two {
+    margin:0 0 2vw 0;
+    display: flex;
+}
+
+
+#stickman-img{
+    width:85%;
+    margin:0 0 0 25%;
+}
+
+#book-img{
+    width:100%;
+    margin:0 0 0 25%;
+}
+
+#exercises-img {
+        width:80%;
+        margin:0 0 0 25%;
+}
+
+#lessonplan-img {
+    width:100%;
+    margin:0 0 0 25%;
+}
+
+#threedprint-img {
+    width:100%;
+    margin:0 0 0 25%;
+}
+
+#temple-div {
+    margin:3vw 0 0 4vw;
+}
+
+#footnote {
+    margin:8em 6em 0 6em;
+    border-top:0.7px solid #b4b4b4;
+    font-size:8px;
+}
+
+#footnote h3 {
+    font-weight: 300;
+    margin: 2em 0 0 0;
+}
+
+#footnote h3:nth-of-type(2n) {
+    font-weight: 500;
+    margin: 0.25em 0 4em 0;
+}
+
+#name-a {
+    text-decoration: none;
+    color:rgb(0, 81, 255);
+}
+
+#name-a:hover {
+    color:rgb(0, 53, 168);
+}
+
+.div-a {
+    all:unset;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
